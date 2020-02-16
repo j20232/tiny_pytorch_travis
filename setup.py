@@ -9,5 +9,5 @@ setup(
     version="0.1",
     description="sample",
     packages=find_packages(),
-    test_suite="torch_test.suite"
+    test_suite="test_torch.suite"
 )
