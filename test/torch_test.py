@@ -12,9 +12,6 @@ class TorchTest(unittest.TestCase):
     def check_shape(self):
         self.assertEqual(self.src.shape, self.target.shape)
 
-    def check_first_value(self):
-        self.assertEqual(self.src[0, 0], self.target[0, 0])
-
 
 def suite():
     suite = unittest.TestSuite()
